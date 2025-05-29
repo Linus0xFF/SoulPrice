@@ -30,8 +30,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(Soulprice.MODID)
-public class Soulprice {
+@Mod(SoulPrice.MODID)
+public class SoulPrice {
 
     // Define mod id in a common place for everything to reference
     public static final String MODID = "soulprice";
@@ -57,7 +57,7 @@ public class Soulprice {
         output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
     }).build());
 
-    public Soulprice() {
+    public SoulPrice() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register the commonSetup method for modloading
