@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: soulprice
-Specification-Vendor: Linus0xFF
-Specification-Version: 1
-Implementation-Title: soulprice
-Implementation-Version: 0.0.1
-Implementation-Vendor: Linus0xFF
-Implementation-Timestamp: 2025-05-29T22:28:55+0800
-
